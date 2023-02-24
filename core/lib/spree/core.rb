@@ -7,7 +7,7 @@ require "active_job/railtie"
 require "active_model/railtie"
 require "active_record/railtie"
 require "active_storage/engine"
-require "sprockets/railtie"
+# require "sprockets/railtie"
 
 require 'acts_as_list'
 require 'awesome_nested_set'
