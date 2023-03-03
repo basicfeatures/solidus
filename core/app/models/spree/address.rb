@@ -28,9 +28,9 @@ module Spree
 
     self.allowed_ransackable_attributes = %w[name]
 
-    scope :with_values, ->(attributes) do
-      where(value_attributes(attributes))
-    end
+    # scope :with_values, ->(attributes) do
+    #   where(value_attributes(attributes))
+    # end
 
     # @return [Address] an address with default attributes
     def self.build_default(*args, &block)
