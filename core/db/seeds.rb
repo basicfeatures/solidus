@@ -5,7 +5,6 @@ shell = Thor::Base.shell.new
 
 %w(
   stores
-  store_credit
   countries
   return_reasons
   states
